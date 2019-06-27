@@ -10,3 +10,4 @@
         *An interactive map showing the 10 establishments per area.
         *Name and street address of each establishment per area listed in a table
 
+## Deployed Link: https://reharr4.github.io/WishYouWereBeer/index2.html
