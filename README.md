@@ -1,12 +1,22 @@
 # WishYouWereBeer
----
-## About
-    With almost 2000 locations to buy beer in Davidson County, the WishYouWereBeer app brings you only the bars and restaurants in select neighborhooods.
----
-    Simply select one of the three predefined neighborhoods (Midtown, Broadway, or East) and the app will provide you with 10 establishments in each neighborhood. Below the map, you will see the Name and Physical Address of each location per neighborhood.
----
-    Some featurs of this app include:
-        *A map showing 3 preselected areas of Nashville, consisting of 30 establishments (10 per area).
-        *An interactive map showing the 10 establishments per area.
-        *Name and street address of each establishment per area listed in a table
 
+[See the app here!](https://reharr4.github.io/WishYouWereBeer/index2.html)
+
+## Overview
+WishYouWereBeer is a full-stack app that uses BLANK to help you find a place to grab a drink in 3 Nashville neighborhoods.
+
+To use WishYouWereBeer, select one of the three predefined neighborhoods (Midtown, Broadway, or East) and the application will provide you with 10 establishments in each neighborhood. Below the map, you will see the Name and Physical Address of each location per neighborhood.
+
+![WishYouWereBeer Home Page](/assets/images/home.png?raw=true)
+
+![Broadway Selection Page](/assets/images/broadway.png?raw=true)
+
+![Broadway List Page](/assets/images/broadwaylist.png?raw=true)
+
+### Technologies Used
+* Javascript
+* jQuery
+* HTML
+* Materialize
+* CSS
+* Here.com
