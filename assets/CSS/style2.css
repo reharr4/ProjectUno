@@ -1,7 +1,14 @@
 body {
-    background-image: linear-gradient(to bottom, #e30d58, #c71455, #ab1851, #8f1b4a, #741c42, #270614);
+    /* background-image: linear-gradient(to bottom, #e30d58, #c71455, #ab1851, #8f1b4a, #741c42, #270614); */
+    background: #333333;
 }
-
+nav {
+    border: none;
+}
+.nav-wrapper {
+    background: #383838;
+    
+}
 #title {
     padding-top: 0;
     padding-bottom: 0;
@@ -12,7 +19,7 @@ body {
     margin: 0em;
     padding: 0em;
     margin-top: 1em;
-    background-color:#5FB2F2;
+    background-color:#646464;
 }
 .title-text {
     margin: 0em;
