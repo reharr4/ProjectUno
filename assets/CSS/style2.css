@@ -7,7 +7,12 @@ nav {
 }
 .nav-wrapper {
     background: #383838;
-    
+    border: none;
+    font-family: 'Unica One', cursive;
+    /* align-content: center;  */
+}
+#logo{
+    height: 65px;
 }
 #title {
     padding-top: 0;
