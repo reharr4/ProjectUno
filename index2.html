@@ -2,129 +2,106 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Wish You Were Beer</title>
+  <title>Wish You Were Beer</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Unica+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.0/mapsjs-ui.css?dp-version=1549984893" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="assets/CSS/style2.css">
-    <link rel="resetsheet" href="assets/CSS/reset.css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Unica+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.0/mapsjs-ui.css?dp-version=1549984893" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/CSS/style2.css">
+  <link rel="resetsheet" href="assets/CSS/reset.css">
 </head>
 
 <body>
 
-    <div class="container">
-            <nav>
-                    <div class="nav-wrapper">
-                      <!-- <img src="./assets/images/logo.png" id="logo" class="brand-logo center"></img> -->
-                      <a src="#" id="logo" class="brand-logo center">WishYouWereBeer</a>
-                      <ul id="nav-mobile" class="left hide-on-med-and-down">
-                        <!-- <li><a href="sass.html">Sass</a></li>
+  <nav>
+    <div class="nav-wrapper">
+      <!-- <img src="./assets/images/logo.png" id="logo" class="brand-logo center"></img> -->
+      <a src="#" id="logo" class="brand-logo center">WishYouWereBeer</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <!-- <li><a href="sass.html">Sass</a></li>
                         <li><a href="badges.html">Components</a></li>
                         <li><a href="collapsible.html">JavaScript</a></li> -->
-                      </ul>
-                    </div>
-                  </nav>
-
-        <!-- <div class="row">
-            <div class="col s12 m12">
-                <div class="card-panel title-card">
-                    <h3 class="title-text" style="text-align: center">Wish You Were Beer</h3>
-                </div>
-            </div>
-        </div> -->
-
-        <div class="row">
-            <div class="col s12 m12">
-                <div class="card">
-                    <div id="map" style="width: 100%; height: 400px ; background: grey"></div>
-
-                </div>
-                <div class="card button-card">Click a button to select a neighborhood</div>
-
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col s0 m1"></div>
-            <div class="col s12 m10">
-
-
-
-                <div class="buttons">
-                    <button class="waves-effect waves-light btn action-btn" id="midtown" type="submit" name="action"
-                        button data-location=36.151935,-86.791285 data-lat=36.151935 data-lon=-86.791285
-                        data-range=",400">Midtown</button>
-                    <button class="waves-effect waves-light btn action-btn" id="broadway" type="submit" name="action"
-                        button data-location=36.161570,-86.775980 data-lat=36.161570 data-lon=-86.775980
-                        data-range=",200">Broadway</button>
-                    <button class="waves-effect waves-light btn action-btn" id="east" type="submit" name="action" button
-                        data-location=36.177440,-86.750962 data-lat=36.177440 data-lon=-86.751962
-                        data-range=",500">East</button>
-
-                </div>
-
-                <br>
-                <div>
-                    <table class="centered stripped-table" id="table-data">
-                        <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>Address</th>
-                            </tr>
-                        </thead>
-
-                        <tbody id="table-body">
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="col s0 m1"></div>
-        </div>
-
+      </ul>
     </div>
-    <footer class="page-footer">
-            <div class="container">
-              <div class="row">
-                <div class="col l6 s12">
-                  <h5 class="white-text">Footer Content</h5>
-                  <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                  <h5 class="white-text">Links</h5>
-                  <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="footer-copyright">
-              <div class="container">
-              © 2014 Copyright Text
-              <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-              </div>
-            </div>
-          </footer>
+  </nav>
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!-- HERE CDN and JS-->
-    <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
-    <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
-    <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
-    <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
-    <!--jQuery link-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/permitapp.js"></script>
+
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m12">
+        <div class="card">
+          <div id="map" style="width: 100%; height: 400px ; background: grey"></div>
+
+        </div>
+        <div class="card button-card">Click a button to select a neighborhood</div>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s0 m1"></div>
+      <div class="col s12 m10">
+
+
+
+        <div class="buttons">
+          <button class="waves-effect waves-light btn action-btn" id="midtown" type="submit" name="action" button
+            data-location=36.151935,-86.791285 data-lat=36.151935 data-lon=-86.791285 data-range=",400">Midtown</button>
+          <button class="waves-effect waves-light btn action-btn" id="broadway" type="submit" name="action" button
+            data-location=36.161570,-86.775980 data-lat=36.161570 data-lon=-86.775980
+            data-range=",200">Broadway</button>
+          <button class="waves-effect waves-light btn action-btn" id="east" type="submit" name="action" button
+            data-location=36.177440,-86.750962 data-lat=36.177440 data-lon=-86.751962 data-range=",500">East</button>
+
+        </div>
+
+        <br>
+        <div>
+          <table class="centered stripped-table" id="table-data">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Address</th>
+              </tr>
+            </thead>
+
+            <tbody id="table-body">
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col s0 m1"></div>
+    </div>
+  </div>
+
+  <!-- footer -->
+    <div class="footer-copyright white-text">
+        <ul id="footer-links">
+            <li><img src="./assets/images/bottle.png" href="login.html"></img></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+      <div class="container" id="copyright">
+        © 2014 Copyright Text
+      </div>
+    </div>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- HERE CDN and JS-->
+  <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
+  <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+  <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+  <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+  <!--jQuery link-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/permitapp.js"></script>
 
 </body>
 
